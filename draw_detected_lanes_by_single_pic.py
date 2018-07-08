@@ -37,7 +37,7 @@ def road_lines(image):
 
 lanes = Lanes()
 
-for i in range(1,3):
+for i in range(1,11):
     origin_image = imread("pic/" + str(i) + ".jpg")
     tStart = time.time()#計時開始
     result, lane_image = road_lines(origin_image)
